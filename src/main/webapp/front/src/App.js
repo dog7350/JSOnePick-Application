@@ -21,7 +21,7 @@ function App() {
 			
 			//<Route path="/contract" element={<DP />}></Route>
 		
-			<Route path="/" element={<DP.MainPage />}></Route>
+			<Route exact path="/" element={<DP.MainPage />}></Route>
 			
 			<Route path="*" element={<NotFound />}></Route>
 			
