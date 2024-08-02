@@ -1,0 +1,43 @@
+{
+  "ecmaVersion": 5,
+  "plugins": {
+    "guess-types": {
+      
+    },
+    "outline": {
+      
+    },
+    "jshint": {
+      
+    },
+    "node": {
+      
+    },
+    "webpack": {
+      
+    },
+    "lint": {
+      
+    },
+    "browser-extension": {
+      
+    },
+    "node-extension": {
+      
+    },
+    "bootstrap": {
+      
+    },
+    "jquery-ui1-12": {
+      
+    },
+    "jquery-extension": {
+      
+    }
+  },
+  "libs": [
+    "browser",
+    "fetch",
+    "jquery"
+  ]
+}

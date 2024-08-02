@@ -11,15 +11,15 @@ function App() {
 	return (
 		<Routes>
 			
-			//<Route path="/admin" element={<AP />}></Route>
+			<Route path="/admin" element={<AP />}></Route>
 			
-			//<Route path="/board" element={<BP />}></Route>
+			<Route path="/board" element={<BP />}></Route>
 			
-			//<Route path="/cs" element={<DP />}></Route>
+			<Route path="/cs" element={<DP />}></Route>
 			
-			//<Route path="/tm" element={<DP />}></Route>
+			<Route path="/tm" element={<DP />}></Route>
 			
-			//<Route path="/contract" element={<DP />}></Route>
+			<Route path="/contract" element={<DP />}></Route>
 		
 			<Route exact path="/" element={<DP.MainPage />}></Route>
 			

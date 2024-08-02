@@ -5,6 +5,8 @@ import { BrowserRouter } from 'react-router-dom';
 
 import Header from './layouts/Header';
 import App from './App';
+import Left from './layouts/LeftSide';
+import Right from './layouts/RightSide';
 import Footer from './layouts/Footer';
 
 const header = ReactDOM.createRoot(document.getElementById('headerContainer'));
@@ -20,6 +22,9 @@ main.render(
 		<App />
 	</BrowserRouter>
 );
+
+const left = ReactDOM.createRoot(document.getElementById('leftSideContainer'));
+const right = ReactDOM.createRoot(document.getElementById('rightSideContainer'));
 
 const footer = ReactDOM.createRoot(document.getElementById('footerContainer'));
 footer.render(
